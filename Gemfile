@@ -2,5 +2,5 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'activerecord'
-gem 'thin'
+gem 'unicorn'
 gem 'mysql2'
