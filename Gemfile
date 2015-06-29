@@ -3,4 +3,8 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'activerecord'
 gem 'unicorn'
-gem 'mysql2'
+gem 'rake'
+
+group :development do
+  gem 'sqlite3'
+end
